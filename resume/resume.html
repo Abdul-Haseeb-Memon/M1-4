@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="mainDiv">
+        <header>
+            <div>
+                <h1 class="white"><span id="resName"></span></h1>
+                <p class="white"><span id="resDesig"></span></p>
+            </div>
+            <img id="resImg" src="pic/haseeb.jpg" alt="Anas">
+        </header>
+        <div class="content">
+            <aside>
+                <section id="contact" class="contact">
+                  <h2>Contact</h2>
+                    <h4>Phone</h4>
+                        <p><span id="resPhone"></span></p>
+                           </br>
+                    <h4>Email</h4>
+                        <p><span id="resEmail"></span></p>
+                           </br>
+                    <h4>Address</h4>
+                        <P><span id="resAddress"></span></P>
+                </section>
+                <section id="education" class="education">
+                  <h2>Education</h2>
+                    <p><span id="resMatric"></span></p>
+                    <p><span id="resMatricLocation"></span></p>
+                    <h4><span id="resMatricDeg"></span></h4>
+                </br>
+                    <p><span id="resIntermadiateYear"></span></p>
+                    <p><span id="resIntermadiateLocation"></span></p>
+                    <h4><span id="resIntermadiateDeg"></span></h4>
+                </br>
+                <!-- <p>2024</p>
+                <p>Artificial intelligent Metaverse ,Web 3</p>
+                <h4>GIAIC</h4> -->
+                </section>
+
+                <Section id="skills" class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li><span id="resSkills1"></span></li>
+                        <li><span id="resSkills2"></span></li>
+                        <li><span id="resSkills3"></span></li>
+                        <li><span id="resSkills4"></span></li>
+                        <li><span id="resSkills5"></span></li>
+                        <li><span id="resSkills6"></span></li>
+                    </ul>
+                </Section>
+                <section class="language">
+                    <h2>Language</h2>
+                        <p><span id="resLan1"></span></p>
+                        <p><span id="resLan2"></span></p>
+                </section>
+            </aside>
+    <!--           main-contact div             -->
+
+        <main class="main-contant">
+            <section id="about" class="about">
+                <h2>About Me</h2>
+                <div>
+                    <p><span id="resAbout"></span></p>
+                </div>
+            </section>
+            <section id="experience" class="experience">
+                <h2>Experience</h2>
+                <div class="experience-item">
+                   <p><span id="resStartDate"></span> - <span id="resEndDate"></span></p>
+                   <h4><span id="resCompany"></span>| <span id="resCompanyLocation"></span></h4>
+                   <h4><span id="resjobTitle"></span></h4>
+                   <ul>
+                    <li><span id="resAch1"></span></li>
+                    <li><span id="resAch2"></span></li>
+                    <li><span id="resAch3"></span></li>
+                    <li><span id="resAch4"></span></li>
+                   </ul>
+                   <p class="experience-p"><span id="resJobDesc"></span></p>
+                </div>
+            </section>
+            <section id="ref" class="reference">
+                <h2>Reference</h2>
+                <div class="experience-item">
+                   <h4>Avaible upon request</h4>
+                </div>
+            </section>
+        </main>
+        </div>
+   </div>
+        <div class="btnDiv">
+            <button id="print_btn"  class="btn">Print</button>
+            <button id="edit_btn"  class="btn">Edit</button>
+        </div>
+</body>
+<script src="resumeScript.js"></script>
+</html>
